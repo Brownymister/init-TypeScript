@@ -1,7 +1,7 @@
 {
   "name": "init-typescript",
   "version": "0.0.2",
-  "description": "",
+  "description": "Simple and easy to use CLI for a TypeScript setup with prettier within a git repo.",
   "main": "index.js",
   "type": "module",
   "scripts": {
