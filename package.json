@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/Brownymister/init-typescipt/issues"
   },
-  "homepage": "https://github.com/Brownymister/init-typescipt#readme"
+  "homepage": "https://github.com/Brownymister/init-typescipt#readme",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "inquirer": "^9.1.4",
+    "make-dir": "^3.1.0",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
 }
