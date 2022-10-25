@@ -1,5 +1,5 @@
 {
-  "name": "init-typescipt",
+  "name": "init-typescript",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Brownymister/init-typescipt.git"
+    "url": "git+https://github.com/Brownymister/init-TypeScript.git"
   },
   "keywords": [],
   "author": "Julian <brownymister@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Brownymister/init-typescipt/issues"
+    "url": "https://github.com/Brownymister/init-TypeScript/issues"
   },
-  "homepage": "https://github.com/Brownymister/init-typescipt#readme",
+  "homepage": "https://github.com/Brownymister/init-TypeScript#readme",
   "dependencies": {
     "chalk": "^5.1.2",
     "inquirer": "^9.1.4",

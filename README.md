@@ -1,1 +1,1 @@
-# init-typescipt
+# init-TypeScript
