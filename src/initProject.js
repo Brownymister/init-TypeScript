@@ -1,6 +1,8 @@
 import { createSpinner } from "nanospinner";
 import makeDir from "make-dir";
-import { execSync } from "child_process";
+import { execSync, exec } from "child_process";
+import { execa } from "execa";
+import chalk from "chalk";
 import fs from "fs";
 import os from "os";
 
@@ -39,6 +41,19 @@ export async function createPackegeJson(name, path) {
   fs.writeFileSync(path + "/.prettierrc.json", "{}");
 
   execSync("npm i typescript tsm prettier -D", { cwd: path });
+}
+
+export async function initGit(path) {
+  exec('git init', {
+    cwd: path
+  }, function(error, stdout, stderr) {
+    if (error) {
+      console.error(
+        chalk.red("Could not init git repo; Make sure you have it installed!")
+      );
+      process.exit(0);
+    }
+  });
 }
 
 export async function createTsConfig(path) {
