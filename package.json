@@ -22,7 +22,8 @@
     "chalk": "^5.1.2",
     "inquirer": "^9.1.4",
     "make-dir": "^3.1.0",
-    "nanospinner": "^1.1.0"
+    "nanospinner": "^1.1.0",
+    "npm-commands": "^1.1.0"
   },
   "devDependencies": {
     "prettier": "2.7.1"
